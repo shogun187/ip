@@ -23,6 +23,10 @@ public class Parser {
             if (input.equals("list")) {
                 return ui.list(taskList);
             }
+            //  Help
+            if (input.equals("help")) {
+                return ui.helpResponse();
+            }
             //  Marking
             if ((input.length() >= 4) && (input.substring(0, 4).equals("mark"))) {
                 //  error checking

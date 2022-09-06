@@ -130,4 +130,15 @@ public class Ui {
         }
         return response;
     }
+
+    /**
+     * Returns URL for Duke help page.
+     *
+     * @return URL for Duke help page.
+     */
+    public String helpResponse() {
+        String URL = "https://github.com/shogun187/helpPage/blob/main/README.md";
+        return "Please refer to the user guide: " + URL;
+    }
+
 }
